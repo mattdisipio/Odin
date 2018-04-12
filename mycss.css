@@ -1,0 +1,150 @@
+body {
+    background-color: white;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+p {
+    font-family: verdana;
+    font-size: 20px;
+}
+
+.menu-header-container
+{
+width: 100%;
+background-color: #f93;
+height: 40px
+}
+
+.action-main-header
+{
+    display: block;
+    height: 105px;
+    width: 1903px;
+}
+
+.action-main-header .logo-container
+{
+    padding-bottom: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 20px;
+    width: 250px;
+    height: 65px;
+    font-size: 40px;  
+}
+
+.action-main-header .logo-container .logo
+{
+    background-image: url("mediaradar.jpg"); 
+    display:block;
+    position:absolute;
+    background-repeat:no-repeat;
+    background-size: 100% 100%;
+    width:250px;
+    height:47px;
+}
+
+.centered-block
+{
+    width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.menu-header-container .menu
+{
+    position: relative;
+    float: left;
+    cursor: pointer;
+    padding-right: 5px;
+    display: block;
+
+}
+
+.menu-header-container .menu:hover
+{
+    background-color: #ffb366;
+}
+
+.menu-header-container .menu .label 
+{
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 17px;
+    font-weight: normal!important;
+    line-height: 40px;
+    padding-bottom: 0px;
+    padding-left: 20px;
+    padding-right: 12px;
+    padding-top: 0px;
+    margin: 0;
+}
+
+
+.menu-header-container .menu:hover .menu-item-container {
+    display: block;
+    min-width: 150px;
+    background-color: #fff;
+    border-right: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+.menu-header-container .menu .menu-item-container {
+   position: absolute;
+    z-index: 10001;
+    display: none;
+}
+
+.roboto-text
+{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.menu-header-container .centered-block
+{
+    width: 1145px;
+}
+
+.menu-item
+{
+    padding: 0 25px;
+    display: block;
+    line-height: 40px;
+    font-size: 17px;
+    white-space: nowrap;
+    font-family: Open Sans, sans-serif;
+}
+
+.menu-item:hover
+{
+    background-color: #F7F6F4;
+    text-decoration: underline;
+}
+
+a
+{
+    text-decoration: none;
+    color: #196c98;
+}
+
+.where-content-is .side-bar-column
+{
+    width: 197px;
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-right-color: #9ea4a5;
+    height: 879px;
+}
+
+
+.where-content-is
+{
+    width: 1100px;
+}
